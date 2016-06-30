@@ -1,0 +1,171 @@
+body {
+	
+	background-image: url("C:/curso/imagenes/fondo.jpg");
+	padding: 0;
+	margin: 0 ;
+	border:0;
+}
+*{
+	padding: 0;
+	margin: 0 ;
+	border:0;
+}
+
+#tablero {	
+
+	border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 0px solid #000000;
+
+	-webkit-box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+	box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+
+
+	background-image: url("C:/curso/imagenes/madera.jpg");
+	padding: 20px;
+	border : 5px;
+	margin: 170px 160px;
+	height: 350px;
+	width:350px;
+	position:relative;
+	float:left;
+
+}
+
+.blancas {
+ 
+	border: 0;
+	padding:0;
+	margin:0;
+	position:relative;
+	display:inline-block;
+	background: white;
+	height:40px;
+	width: 40px;
+}
+
+
+
+.negras{
+
+ 	border: 0;
+ 	padding:0;
+ 	margin:0;
+ 	position:relative;
+ 	display:inline-block;
+ 	background: black;
+ 	height:40px;
+ 	width: 40px;
+
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+img:hover{
+
+	height:40px;
+	width:40px;
+}
+
+
+#titulo{
+
+	text-align: center;
+	padding:10px;
+	font-size: 50px;
+	font-family: verdana;
+	
+}
+
+
+*{
+	list-style: none;
+}
+#menu {
+
+	border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 0px solid #000000;
+
+
+	-webkit-box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+	box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+
+
+	list-style: none;
+	display: inline-block;
+	background-image: url("C:/curso/imagenes/mano.jpg");
+	padding: 20px;
+	border : 5px;
+	margin: 170px -120px;
+	height: 350px;
+	width:500px;
+	float:left;
+	position:absolute;
+	
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.men > li {
+	float:left;
+}
+
+.men li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.men li a:hover {
+	background-color:#434343;
+}
+
+.men li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.men li:hover > ul {
+	display:block;
+}
+
+.men li ul li {
+	position:relative;
+}
+
+.men li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+#tit{
+
+		border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 0px solid #000000;
+
+
+	-webkit-box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+	box-shadow: 21px 17px 38px 2px rgba(0,0,0,0.31);
+
+	position: absolute;
+	background-image: url("C:/curso/imagenes/madera2.jpg");
+	width: 800px;
+	margin: 20px 260px;
+}
+
